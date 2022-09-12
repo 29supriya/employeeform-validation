@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<tittle>JavaScript Form Validation using a employee registration form</tittle>
+<meta name="keywords" content="this document is an example of JavaScript Form Validation using a employee registration form. "/>
+<link rel='stylesheet' href='validation.css'type='text/css/>
+<script src="employeevalidation.js"></script>
+</head>
+<body onload="document.registration.employeeid.focus();">
+    <h1>
+        Employee registration form
+    </h1>
+    <form name='Employeeregistration' on submit="return form validation();">
+        <ul>
+            <li><label for="username">EmployeeName:</label></li>
+            <li><input type="text" name="username" size="50"/></li>
+            <li><label id="gender"> Sex:</label></li>
+            <li><input type="radio" name="malesex" value="Male"/><span>Male</span></li>
+            <li><input type="radio" name="femalesex" value="Female"/><span>Female</span></li>
+            <li><label>Hobbies:</label></li>
+            <li><input type="checkbox" name="Reading" value="Reading" /><span> Reading</span></li>
+            <li><input type="checkbox" name="Dancing" value="Dancing" /><span>Dancing</span></li>
+            <li><input type="checkbox" name="Writing" value=Writing" /><span>Writing</span></li>
+            <li><input type="checkbox" name="Listening" value="Listening" /><span>Listening</span></li>
+            <li><input type="checkbox" name="Playing" value="Playing" /><span>Playing</span></li>
+            <li><label for="desc">About:</label></li>
+            <li><textarea name="desc" id ="desc"></textarea></li>
+            <li><input type="submit" name="submit" value="submit" /></li>
+
+        </ul>
+    </form>
+</body>
+</html>
